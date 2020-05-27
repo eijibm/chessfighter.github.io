@@ -1,0 +1,123 @@
+/*
+GLOBAL
+*/
+.heading-site {
+    text-align: center;
+    font-family: 'Lexend Giga', sans-serif;
+}
+
+body {
+    background-color: lavenderblush;
+}
+
+
+/*
+HEADER
+*/
+.header {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: 70px;
+    line-height: 70px;
+    background-color: rgb(57, 47, 85);
+    position: fixed;
+    top: 0%;
+    z-index: 999;
+}
+
+.header .header-logo {
+    color: azure;
+    font-family: 'Lexend Giga', sans-serif;
+    float: left;
+    margin-left: 10px;
+    
+}
+
+.header .header-image {
+    float: left;
+    margin-left: 30px;
+    
+}
+
+.header .header-menu {
+    float: right;
+    margin-right: 30px;
+}
+
+.header .header-menu a {
+    margin-right: 15px;
+    color: azure;
+    font-size: 20px;
+}
+
+.header .header-menu a:hover {
+    color: #1abc9c;
+}
+
+.monBoutton {
+    background-color: rgb(173, 29, 29);
+    color: azure;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 3px;
+    cursor: pointer; 
+    box-shadow: 0 8px 16px 0 grey;
+    text-decoration: none;
+  }
+
+  .monBoutton2 {
+    background-color: rgb(42, 134, 99);
+    color: azure;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 50px;
+    cursor: pointer; 
+    box-shadow: 0 8px 16px 0 grey;
+    text-decoration: none;
+  }
+
+/*
+BANNER
+*/
+.banner {
+    margin-top: -1px;
+}
+
+.banner .banner-image {
+    position: relative;
+}
+
+.banner .banner-content {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 15%;
+}
+
+.banner .banner-content h1 {
+    color: azure;
+    font-size: 120px;
+}
+.banner .banner-content h2 {
+    color: azure;
+    font-size: 25px;
+}
+
+/*
+DIVI
+*/
+.about .about-single-element .icon {
+    font-size: 50px;
+    text-align: center;
+}
+
+.about .about-single-element {
+    text-align: center;
+}
+
+.about .about-single-element p {
+    text-align: left;
+    margin-top: 20px;
+}
+

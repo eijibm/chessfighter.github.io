@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Chess Fighter dev </title>
+       <!-- CSS -->
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+       <link rel="stylesheet" href="src/css/main.css">
+       <!-- CSS -->
+       
+       <!-- Font -->
+       <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap" rel="stylesheet">
+       <script src="https://kit.fontawesome.com/eb7cd08a0f.js" crossorigin="anonymous"></script>
+       <!-- Font -->
+       
+       </head>
+
+       <body>  
+        <!-- header -->
+        <div class="block">
+            <header class="header">
+              <a href="index.html" class="header-image"><img src="src/img/chessfilogo2.png" alt="logo du jeu" height="60px" width="60px"></a>
+                <a href="index.html" class="header-logo">Chess Fighters</a>
+                <nav class="header-menu">
+                    <a href="index.html">Accueil</a>
+                    <a href="game.html">Le jeu</a>
+                    <a href="galerie.html">Galerie</a>
+                    <a href="dev.html">Les développeurs</a>
+                </nav>
+        
+            </header>
+            </div>
+            <!-- header -->
+    
+            <div class="block">
+                <div class="banner">
+                    <img src="src/img/devteam.jpg" alt="groupe de personnes" class="banner-image">
+                    <div class="banner-content">
+                        <h1 class="title is-1"><b>NOUS</b></h1>
+                        <h3><img src="src/img/chessfilogo2.png" alt="logo du jeu" height="500px" width="500px"></h3>
+                        <p><br/><br/><br/><br/><br/></p>
+                        <h2 class="subtitle">Qui sommes nous derrières nos écrans?</h2>
+                    </div>
+                </div>
+            </div>
+    
+    <div class="block">
+
+        <!-- bulma -->
+
+        <div class="container">
+        <div class="card">
+        
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <figure class="image is-48x48">
+                    <img src="src/img/matthiasCF.jpg" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <p class="title is-4">Matthias JACQUEMONT</p>
+                  <p class="subtitle is-6">matthias.jacquemont@epita.fr</p>
+                </div>
+              </div>
+          
+              <div class="content">
+                Je suis le chef du projet, et je me suis chargé de la réalisation des menus, du multijoueur et de la partie qui concerne les combats.
+                <br>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+        
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <figure class="image is-48x48">
+                    <img src="src/img/MUSTOCF.jpg" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <p class="title is-4">Mustapha HAMMOUDI</p>
+                  <p class="subtitle is-6">mustapha.hammoudi@epita.fr</p>
+                </div>
+              </div>
+          
+              <div class="content">
+                Je me suis chargé de la réalisation des maps sur Blender, leurs transferts sur Unity et leur présence dans le jeu.
+                <br>
+        
+              </div>
+            </div>
+          </div>
+          <div class="card">
+        
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <figure class="image is-48x48">
+                    <img src="src/img/RAPHCF.jpg" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <p class="title is-4">Raphaël MENEZ</p>
+                  <p class="subtitle is-6">raphael.menez@epita.fr</p>
+                </div>
+              </div>
+          
+              <div class="content">
+                Je me suis chargé des mécaniques du jeu, de la mise en page latex ainsi que de l'installation et la desinstallation du jeu.
+                <br>
+                
+              </div>
+            </div>
+          </div>
+          <div class="card">
+        
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <figure class="image is-48x48">
+                    <img src="src/img/eijicf.jpg" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <p class="title is-4">Eiji MARTIN-BESSHO</p>
+                  <p class="subtitle is-6">eiji-antoine.martin-bessho@epita.fr</p>
+                </div>
+              </div>
+          
+              <div class="content">
+               J'ai créé les modèles 3D et les maps sur 3DSmax, ainsi que tous les éléments visuels (logo, menu, etc) et le site internet.
+                <br>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+    </div>
+    
+    <!-- contact -->
+    <div class="block">
+      <footer class="footer">
+          <h2 class="heading-site">Nous contacter</h2>
+          <div class="footer-contact-form">
+              <form>
+                      <div class="field">
+                              <label class="label">Votre pseudo</label>
+                              <div class="control">
+                                <input id="name" class="input" type="text" placeholder="night_fang" name="name">
+                              </div>
+                            </div>
+                            <div class="field">
+                                  <label class="label">Votre mail</label>
+                                  <div class="control">
+                                    <input id="email" class="input" type="text" placeholder="email@email.com" name="email">
+                                  </div>
+                                </div>
+                                <div class="field">
+                                      <label class="label">Votre message</label>
+                                      <div class="control">
+                                              <textarea id="message" class="textarea" placeholder="Donnez nous votre avis ou une suggestion" name="message"></textarea>
+                                      </div>
+                                    </div>                             
+              </form>
+              <p><br/></p>
+              <button class="button is-link" id="send_email"> Envoyer </button>
+          </div>
+          <div class="footer-informations">
+              
+          </div>
+      </footer>
+  </div>
+
+  
+
+  <!-- contact -->
+
+         
+    </body>
+
+
+</html>
